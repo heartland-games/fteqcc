@@ -1,0 +1,13 @@
+.{
+    .name = "fteqcc",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zlib = .{
+            .url = "https://github.com/zig-pkg/zlib/archive/c453b28cb062b727a619684949b329f61433cc44.tar.gz",
+            .hash = "1220ba6f0f8fe189cfe4fc8cf744600609b9dc5b208c496d01d4dd594478a26ff31a",
+        },
+    },
+    .paths = .{
+        "",
+    },
+}
