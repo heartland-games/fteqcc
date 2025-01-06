@@ -31,7 +31,7 @@ pub fn build(b: *std.Build) void {
     });
     exe.subsystem = .Console;
 
-    exe.addWin32ResourceFile(.{ .file = .{ .path = "fteqcc.rc" } });
+    exe.addWin32ResourceFile(.{ .file = b.path("fteqcc.rc") });
 
     exe.linkLibC();
     exe.addCSourceFiles(.{
